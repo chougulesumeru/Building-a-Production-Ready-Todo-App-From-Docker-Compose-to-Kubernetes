@@ -1,0 +1,5 @@
+# hel for packaging
+apiVersion: v2
+name: todo-app
+description: todo app chart
+version: 0.1.0
