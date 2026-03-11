@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: todo-app
+data:
+  DATABASE_URL: "postgresql://postgre:password@db-service:5432/todo"
+  REDSI_URL: "redis://redis-service:6379"
